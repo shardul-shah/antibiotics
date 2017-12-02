@@ -1,0 +1,54 @@
+@keyframes example
+{
+ 	from {background-color: black;}
+    to {background-color: #49D0FC;}
+	
+}
+
+.para /* classes are represented by . */
+{
+	text-shadow: 3px 3px green;
+	color: #ffffff;
+	font-size: 25px;
+	font-family: Verdana;
+	text-align: center;
+}
+
+#new_website_img
+{
+    display: block;
+    margin: auto;
+	border-radius: 0%; /* block radius is the property that makes picture border circular/in a radius manner. e.g. block radius: 30% */
+}
+
+#mid_div
+{
+	border-color: orange;
+	border-width: 12px;
+	border-style: solid;
+	width: 650px;
+	display: block; /* display: block , margin: auto to center divs/images/etc on a page(center text, is text-align)*/
+	margin: auto;
+	margin-top: 20px; /* note, because margin: auto is first and margin-top: 20px is second, the first thing that happens is margin: auto, then the change only on the top margin 
+	happens ; the rest of the margins are still auto. Useful!!!! */
+	/*margin-top: -350px; /* negative pixel amounts in things like margin move the element x amount of pixels in the opposite direction it would move with a positive value */
+	height: 700px;
+	background-color: black; /* default - starting - background color of the div */
+    animation-name: example;
+    animation-duration: 0s; /*change from 0 to a certain amount of seconds to animate */
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+/* title of the main page of the website */
+.h1s
+{
+	text-shadow: 3.5px 3.5px orange;
+	color: #ffffff;
+	font-family: Verdana;
+	text-align: center;
+	font-size: 45px;
+	text-transform: uppercase;
+	margin: auto;
+}
+
