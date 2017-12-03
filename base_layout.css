@@ -2,9 +2,15 @@
 
 #pageBody /* IDs are represented  by # */
 {
-	background-color: #49D0FC;		
+	background-color: #49D0FC;	
 }
+
 /* ################################################################################################################################################################################*/
+
+#main_content
+{
+
+}
 
 /*the navigation bar to the left */
 #nav_bar
